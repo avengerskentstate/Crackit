@@ -20,7 +20,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><img src="snake.png"/></a>
+      <a class="navbar-brand" href="#"><img href="/static/img/snake.png" ALT="example annotation" WIDTH=500 HEIGHT=300></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
