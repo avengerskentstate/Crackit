@@ -10,5 +10,5 @@ def crack():
 
 @route('/static/<filename>')
 def serve_static(filename):
-    return static_file(filename, root='./static/img')
+    return static_file(filename, root='./static/img/')
 run(host='localhost', port=8080)
