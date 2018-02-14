@@ -1,5 +1,7 @@
-Game Content (Crackit):
-It is a single user number series game where the user will be given 3 lives per game. Here the number series is displayed, 
-and the user will have to think about the next number in series. The set of random numbers will be displayed on board and 
-the snake will be dragged by user to eat correct number. If the snake eats correct number, then the user will be moved to 
-next level where the complexity of number series game increases otherwise he loses one life and will be moved to first level.
+It is a single user number series game where your snake will be given 3 lives per game. 
+Here the number series is displayed, then you Crack the math and find the next number in the series. 
+Then a set of random numbers will be displayed on board and you navigate your snake to eat the correct number that occurs next in the series. 
+If your snake eats the correct number, it will grow in size and, you and your pet will move to the next level where the complexity of the number series game increases. 
+Otherwise your snake will lose one life and will be staying in the same level. 
+Don’t hit the wall or eat your own tail. 
+Let’s see how long your snake can survive!!!
