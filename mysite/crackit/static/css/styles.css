@@ -53,6 +53,10 @@ background-color: #FFDD23;
 	font-size: 15px;
 }
 
+.fontBold{
+  font-weight:bold;
+}
+
 .team{
 background-color: #FFDD23;	
 }
