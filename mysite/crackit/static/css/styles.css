@@ -137,3 +137,16 @@ h2 span{
 @keyframes cursor{
   50% { border-color: white;}
 }
+.teamFont{
+    background-color: #FFDD23;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+.textAlignCenter{
+    padding: 50px;
+    Text-align:center;
+}
