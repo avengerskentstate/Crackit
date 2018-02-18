@@ -7,6 +7,7 @@
 	font-family: 'Yrsa', serif;
 	text-align:center;
 	height: 700px;
+  margin:0;
 }
 
 .bckYellow{
@@ -40,7 +41,15 @@
   text-decoration: none;
   font-size:15px;
 }
-.logo{
+
+.message{
+  background-color: #FFDD23;
+  height:200px;
+  width:200px;
+  border-radius:10px;
+}
+#logo{
+  margin:0px;
 	font-size:150px;
 	color:black;
 }
@@ -59,4 +68,72 @@ background-color: #FFDD23;
 
 .team{
 background-color: #FFDD23;	
+}
+
+/* carousel*/
+.carousel-inner .item {
+  text-align: center !important;
+}
+@media (max-width: 570px) {
+  .carousel-control.left {
+    left: 0;
+  }
+  .carousel-control.right {
+    right: 0;
+  }
+}
+
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  opacity:0;
+}
+
+.carousel.carousel-fade .active.item {
+  opacity:1;
+}
+
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+  left: 0;
+  z-index: 1;
+}
+#speech-bubble { position: relative; background: #FFDD23; border-radius: .4em; } 
+#speech-bubble:after { content: ''; position: absolute; left: 0; top: 50%; width: 0; height: 0; border: 41px solid transparent; border-right-color: #ffff00; border-left: 0; border-bottom: 0; margin-top: -20.5px; margin-left: -41px; }
+h2 span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #FFDD23;
+  width: 100%;
+  border-left: .1em solid transparent;
+  -webkit-animation: typing 3s steps(16) forwards,
+                     cursor 1s infinite;
+  animation: typing 3s steps(16) forwards,
+             cursor 1s infinite;
+}/* Animation */
+@-webkit-keyframes typing{
+  from { width: 100%;}
+  to { width: 0;}
+}
+@-webkit-keyframes cursor{
+  50% { border-color: white;}
+}
+@keyframes typing{
+  from{ width: 100%;}
+  to{ width: 0;}
+}
+@keyframes cursor{
+  50% { border-color: white;}
 }
