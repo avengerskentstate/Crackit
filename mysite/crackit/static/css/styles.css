@@ -8,6 +8,24 @@
 	text-align:center;
 	height: 700px;
 }
+
+.bckYellow{
+	background-color: #FFDD23;
+}
+
+.paddingTwoPer{
+	padding: 2%;
+}
+
+.paddingBottomOnePer{
+	padding-bottom:1%;
+}
+
+.familyMont{
+	font-family: Montserrat, sans-serif;
+	font-weight:bold;
+}
+
 .button{
   display: inline-block;
   background-color:rgba(0,0,0,0.5);
@@ -26,9 +44,15 @@
 	font-size:150px;
 	color:black;
 }
+
 .mission{
 background-color: #FFDD23;
 }
+
+.fontSizeFifteenPx{
+	font-size: 15px;
+}
+
 .team{
 background-color: #FFDD23;	
 }
